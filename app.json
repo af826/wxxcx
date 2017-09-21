@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/electric/list",
+    "pages/quilt/list",
+    "pages/quilt/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/index_ico_n.png",
+        "selectedIconPath": "static/icon/index_ico_y.png"
+      },
+      {
+        "pagePath": "pages/quilt/list",
+        "text": "选购",
+        "iconPath": "static/icon/electrlc_ico_n.png",
+        "selectedIconPath": "static/icon/electrlc_ico_y.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "水费",
+        "iconPath": "static/icon/electrlc_ico_n.png",
+        "selectedIconPath": "static/icon/electrlc_ico_y.png"
+      }
+    ]
+  }
+}

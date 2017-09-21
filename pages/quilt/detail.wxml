@@ -1,0 +1,22 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">
+          <view>
+            <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+              <block wx:for="{{goodsPicsInfo}}">
+                <swiper-item>
+                  <image src="{{item.url}}" class="slide-image" />
+                </swiper-item>
+              </block>
+            </swiper>
+          </view>
+        </view>
+        <view class="page__desc">【新疆优质长绒棉】+【纯棉无荧光剂包布】，更加密实耐用。手工精心缝制而成。透气保暖，吸湿排汗，健康天然！是您居家的天然床品</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="default" bindtap="openConfirm">购买</button>
+            <button class="weui-btn" type="default" bindtap="openAlert">Alert Dialog</button>
+        </view>
+    </view>
+</view>

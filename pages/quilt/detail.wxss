@@ -1,0 +1,11 @@
+/* pages/quilt/detail.wxss */
+/*轮播图*/
+
+swiper {
+  height: 380rpx;
+}
+
+.slide-image {
+  width: 750rpx;
+  height: 450rpx;
+}
